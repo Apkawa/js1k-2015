@@ -3,15 +3,15 @@ crs = 250; // текущий курс
 crad = 250; // Текущий радиал
 tv = -1; // Направление на vor (-1 - на, +1 - от)
 
-b.onkeyup = function (e) {
+b.onkeydown = function (e) {
     k = e.keyCode;
     k == 37 && crs--;
     k == 39 && crs++;
     k == 38 && rad--;
     k == 40 && rad++;
     D()
-    console.log(k, crad)
-}
+    console.log(k, crs, rad)
+};
 
 tau = 2 * Math.PI;
 cx = a.width / 2;
@@ -50,7 +50,7 @@ function D() {
     }
 
 // Индикатор отклонения
-    _o = abs(ofs) > 5 ? 100 : ofs * 100 / 5;
+    _o = abs(ofs) > 5 ? (ofs<0?-1:1) * 100 : ofs * 100 / 5;
     c.rect(_o - 2, -100, 4, 200);
     c.fillStyle = w;
     c.fill();

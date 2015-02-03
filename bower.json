@@ -1,0 +1,20 @@
+{
+  "name": "js1k",
+  "main": "js1k.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Apkawa/js1k-2015",
+  "authors": [
+    "apkawa <apkawa@gmail.com>"
+  ],
+  "license": "WTFPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "closure-compiler": "~0.2.6"
+  }
+}
