@@ -1,0 +1,29 @@
+{
+  "name": "js1k",
+  "version": "0.0.0",
+  "description": "for js1k-2014",
+  "main": "js1k.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-jscrush": "^1.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.1.0",
+    "jscrush": "^0.0.0",
+    "uglify-js": "^2.4.16"
+
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Apkawa/js1k-2015.git"
+  },
+  "author": "Apkawa",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/Apkawa/js1k-2015/issues"
+  }
+}
