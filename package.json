@@ -6,10 +6,12 @@
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.8.10",
+    "gulp-callback": "0.0.3",
     "gulp-closure-compiler": "^0.2.16",
     "gulp-jscrush": "^1.0.0",
     "gulp-rename": "^1.2.0",
     "gulp-uglify": "^1.1.0",
+    "gulp-util": "^3.0.3",
     "jscrush": "^0.0.0",
     "uglify-js": "^2.4.16"
   },
