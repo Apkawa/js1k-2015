@@ -29,9 +29,9 @@ gulp.task('minify', ['closure-compile'], function () {
         .pipe(gulp.dest('./dest/'))
         .pipe(gcallback(function () {
             gutil.log('Source size', gutil.colors.magenta(
-                fs.statSync('./js1k.js')['size'] + ' bytes'))
+                fs.statSync('./js1k.js')['size'] + ' bytes'));
             gutil.log('Result size', gutil.colors.magenta(
-                fs.statSync('./dest/js1k.min.js')['size'] + ' bytes'))
+                fs.statSync('./dest/js1k.min.js')['size'] + ' bytes'));
 
         }))
 });
